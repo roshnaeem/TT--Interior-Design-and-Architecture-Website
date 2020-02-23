@@ -1,0 +1,43 @@
+
+
+.personinfoleft {
+  float:left;
+  width: 70%;
+  margin:0% 5%;
+  
+}
+
+.personinforight {
+  float:right;
+  width: 70%;
+  margin:0% 5%;
+  
+}
+
+.imagepersonleft {
+  width: 20%;
+  float: left;
+  
+}
+
+.imagepersonright {
+  width: 20%;
+  float: right;
+}
+
+.imageperson {
+  width: 100%;
+  display:block;
+  border: 1px solid #cc0000;
+  border-radius: 5px;
+}
+
+.aboutusinfo {
+  width: 70%; 
+  margin:auto; 
+  margin-top: 70px;
+  background-color: rgba(0,0,0,0.9);
+  color:white;
+  clear: both;
+  border: 2px solid #cc0000;
+}
