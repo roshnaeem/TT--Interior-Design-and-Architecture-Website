@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script/myScript.js"></script>
+</head>
+<body>
+
+<div class="logo" style="padding: 0.1%;"  >
+	<span style="text-align: center; padding: 1%;">TT Interior designer</span>
+	<a href= "signUp.php"  style="float: right; font-size: 30px; margin-right: 1%; color: white;">SignUp</a> 
+
+	<a href= "signIn.php"  style="float: right; font-size: 30px; margin-right: 1%; color: white;">Login</a>
+
+	
+	
+
+</div>
+
+
+<!-- Navigation Bar -->
+
+		<ul>
+	  <li><a class="active nav" href="index.php">Home</a></li>
+	  <li><a class="nav" href="About.php">About</a></li>
+	  <li><a class="nav" href="Services.php">Services</a></li>
+	  <li><a class="nav" href="Products.php">Products</a></li>
+	  <li><a class="nav" href="Contact.php">Contact</a></li>
+	  <li><a class="nav" href="Material.php">Material</a></li>
+	  
+
+  
+    </ul>
+<!-- Add Homepage picture -->
+<div style="height: 235px;">
+    <div class="responsiveness">
+  		<div class="carousel">
+      		<img src="images/frontpic.png" style="height: 235px;" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+    		<div class="label">You Dream We Create</div>
+  		</div>
+	</div>
+
+
+	<div class="responsiveness">
+  		<div class="carousel">
+      		<img src="images/frontpic2.jpg" style="height: 235px;" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+    		<div class="label">A Culture Of Innovation</div>
+  		</div>
+	</div>
+
+
+	<div class="responsiveness">
+  		<div class="carousel">
+      		<img src="images/frontpic3.jpg"  style="height: 235px;" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+    		<div class="label">Creating Spaces that matter</div>
+  		</div>
+	</div>
+
+
+	<div class="responsiveness">
+  		<div class="carousel">
+      		<img src="images/frontpic4.jpg" style="height: 235px;" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
+    		<div class="label">Everything Under One Roof</div>
+  		</div>
+	</div>
+	<br><br>
+
+	</div>
+	<div style="height: 40px;"></div>
+
+
+
+	<div style="margin-top: 10px; width: 100%;">
+		<center>
+			<br><br>
+			<div style="width: 50%"><img src="images/TT-logo.JPG" class="roshuz" ></div>
+			<div><h1 style="width: 40%">OUR STORY</h1></div>
+
+			
+			<p>Architectural and Interior Designing of a home is more or less painstaking processes. No doubt it is a difficult decision for individuals to choose Best architects which are highly regarded Architects/Interior designing firms. We have a professional team of Architects & Interior Designers who makes these processes smooth and easy.
+Excellence built with the least cost and most desirable duration has been our identity around the clients and customers. We specialize in interior Designing/ Building Homes, Offices and showrooms. Moreover, <b>TT</b> is Best Architects  with certification ISO 9001 & OHSAS 18001 in quality, safety, reliability and customer satisfaction. </p>
+		</center>
+		
+
+	</div>
+
+
+	<div style="margin-top: 10px; width: 100%;">
+		<center>
+			<br><br>
+			<div style="width: 50%"><img src="images/TT-logo.JPG" class="roshuz" ></div>
+			<h1 >OUR SERVICES</h1>
+
+			
+			<p>We put all our efforts into our client’s work and honors to be a great service company. We believe in putting our best capabilities in every project. We work with experts in order to meet the client's vision of building and designing extraordinary spaces together. </p>
+		</center>
+		
+
+	</div>
+
+
+</div>
+
+
+	<div style="margin-top: 10px; width: 100%;">
+		<center>
+			<br><br>
+			<div style="width: 50%"><img src="images/TT-logo.JPG" class="roshuz"
+			 ></div>
+			<div><h1 style="width: 40%">WHAT WE DO</h1></div>
+
+			
+			<p>Architecture designing is a visual art and <b>TT</b> team is precise and experienced in creating masterpieces of Architectural Designs through our work.
+
+Our architects are experienced professionals who understand client’s demands and successfully meet client’s expectations. Our Creative Architects & Designers hold strong experience of working with top companies, firms, commerical and corporate clients from around the world </p>
+		</center>
+		
+
+	</div>
+
+
+	<div style="margin-top: 10px; width: 100%;">
+		<center>
+			<br><br>
+			<div style="width: 50%"><img src="images/TT-logo.JPG" class="roshuz" ></div>
+			<div><h1 style="width: 40%">CONSTRUCTION </h1></div>
+
+			
+			<p>We provide services in developing and building houses, bungalows, shops, showrooms with firm satisfaction. We take pride in building some of the prestigious projects from residential to commercial buildings.
+
+Our Architects and Constructors work collaboratively to provide you world class construction services at the most affordable prices!</p>
+		</center>
+		
+
+	</div>
+	<br><br>
+		<!-- footer -->
+<div class="footer">
+
+	<ul>
+		<li >
+			<a href="Privacy.php" class="foot"><u>Privacy Policy</u></a>
+		</li>
+		<li >
+			<a href="FAQs.php" class="foot"><u>FAQs</u></a>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
